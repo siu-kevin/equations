@@ -1,8 +1,10 @@
 site_name: FWI2025 Equations
+site_url: "https://siu-kevin.github.io/equations/"
 repo_url: "https://github.com/nrcan-cfs-fire/cffdrs-ng"
 theme:
   name: shadcn
   icon: mynaui:tree
+  custom_dir: custom_theme/
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
