@@ -391,7 +391,7 @@
         </h1>
 
         <div class="flex items-center gap-2 pt-1.5">
-          <!-- 
+          
 <button onclick="fetch(`/01_Other/sun.md`).then((r) => r.blob()).then((blob) => navigator.clipboard.write([new ClipboardItem({ 'text/plain': blob })]))" 
         data-slot="button" 
         class="cursor-pointer inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-md gap-1.5 px-3 has-[&>svg]:px-2.5 h-8 shadow-none md:h-7 md:text-[0.8rem]">
@@ -399,7 +399,7 @@
     <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z"></path><path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1"></path>
 </svg>
 <span class="max-md:hidden">Copy Page</span>
-</button>  -->
+</button> 
           
           <a
             data-slot="button"
@@ -566,9 +566,8 @@
         <div class="flex h-(--footer-height) items-center justify-between">
             <div class="text-muted-foreground w-full text-center text-xs leading-loose sm:text-sm">
                 
-                Documentation built with <a href="https://www.mkdocs.org">MkDocs</a>.
-                <!-- <a href="https://github.com/asiffer/mkdocs-shadcn">shadcn theme</a> provided by
-                <a href="https://github.com/asiffer">@asiffer</a> -->
+                <a href="https://github.com/asiffer/mkdocs-shadcn">shadcn theme</a> provided by
+                <a href="https://github.com/asiffer">@asiffer</a>
             </div>
         </div>
     </div>
