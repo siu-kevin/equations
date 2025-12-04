@@ -1,5 +1,5 @@
 ---
-title: Home
+title: mock-up
 order: 0
 ---
 
